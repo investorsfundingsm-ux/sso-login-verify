@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 // ============================================================
 
 app.use(cors({
-    origin: 'https://sharepoint-team-order-po.netlify.app',
+    origin: 'https://sso-login-verify.netlify.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
